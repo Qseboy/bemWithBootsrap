@@ -1,9 +1,10 @@
 @import 'fonts.css';
 
 body {
-    background: gray;
+    /*background: gray;*/
+    font-family: "Open Sans";
 }
-
+/*меню*/
 ul, li {
     display: block;
     padding: 0;
@@ -12,24 +13,87 @@ ul, li {
 .menu-bar {
     color: #212121;
     background: #ffffff;
+    padding: 50px 0;
 }
 .menu__item {
     margin-left: 45px;
 }
 .menu__item a {
     color: #212121;
-    font-family: "Open Sans - Semibold";
     font-size: 20px;
-}
+    font-family: "Open Sans - Semibold";
+} 
 .menu__item a:hover {
     text-decoration: none;
     color:#d7e2df;
 }
 
-.col-xl-2 {
-    padding: 50px 0px 50px 0px;
+
+
+/*header*/
+.header > div  {
+    padding: 180px 0;
+    background-image: url(../img/header.png);
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    background-size: cover;
+    background-position: 0 90%;
 }
-.col-xl-8 {
-    padding: 50px 0px 50px 0px;
+
+.header__title {
+    font-size: 55px;
 }
-.tes
+.header__text {
+    font-size: 20px;
+    margin-bottom: 100px;;
+}
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s; /*для плавной анимации*/
+    
+}
+.button_empty {
+    background: transparent;
+    border: 2px solid white;
+}
+.button_full {
+    background: #00897b;
+    border: 2px solid #00897b;
+}
+.button_empty:hover,
+.button_full:hover {
+    background: #195852;
+}
+
+/*О нас*/
+.about>div {
+    text-align: center;
+    padding: 180px 0px;
+    color: black;
+    background: white;
+}
+.about_title {
+    font-size: 30px;
+    color: #212121;
+    font-weight: 600;
+}
+.about_text {
+    font-size: 15px;
+    margin-bottom: 120px;
+}
+.col-xl-3>img {
+    margin-bottom: 40px;
+}
+.about_h3 {
+    font-size: 20px;
+    font-family: "Open Sans - Semibold";
+}
+.about__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0;
+}
