@@ -27,9 +27,6 @@ ul, li {
     text-decoration: none;
     color:#d7e2df;
 }
-
-
-
 /*header*/
 .header > div  {
     padding: 180px 0;
@@ -147,6 +144,33 @@ ul, li {
     line-height: 25px;
     letter-spacing: 0.75px;
 }
-
+/*latest-work*/
+.latest-work {
+    text-align: center;
+    padding: 128px 0 136px;
+}
+.button-work {
+    border: 2px solid #00897b;
+    background: transparent;
+    padding: 10px 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.latest-work button:nth-child(1) {
+    padding: 18px 55px;
+}
+.button-work:hover {
+    background: #00897b;
+    color: white;
+    transition: 0.2s;
+}
+.latest-work img {
+    margin-bottom: 30px;
+}
+.filter-work {
+    padding: 120px 0px;
+}
 
 
