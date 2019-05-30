@@ -172,5 +172,95 @@ ul, li {
 .filter-work {
     padding: 120px 0px;
 }
+div[filter]:hover img {
+    filter: brightness(30%);
+    transition: 0.3;
+}
+.text img:hover {
+    filter: brightness(30%);
+    transition: 0.3;
+}
+.text {
+    display: none;
+}
+div[filter]:hover .text{
+    display: block;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    text-align: center;
+}
+/*price*/
+.price {
+    padding: 125px;
+    text-align: center;
+    background: #f0f0f0;
+}
+.card_price {
+    background: white;
+}
+.card_price:hover {
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.35);
+}
+
+.price__head {
+    background-image: url(../img/fon-price.png);
+    color: #ffffff;
+    padding: 40px 0px 68px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 209px;
+}
+.price__head p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.25px;
+}
+.price__head sup {
+    font-size: 25px;
+    vertical-align: middle; /*выравнивает текст*/
+}
+.price__head {
+    font-size: 50px;
+}
+.price__head sub {
+    font-size: 17px;
+    vertical-align: middle; /*выравнивает текст*/
+}
+.price__main {
+    font-size: 17px;
+    color: #212121;
+    padding-top: 50px;
+}
+.price__main ul li  {
+    border-bottom: 1px solid #dfdfdf;
+    max-width: 170px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+ 
+}
+.price__footer {
+    padding-top: 30px;
+    color: #212121;
+    font-size: 20px;
+}
+.price__button {
+    padding: 12px 42px;
+    border: 2px solid black;
+    transition: 0.2s;
+    background: transparent; /*прозрачный фон*/
+    margin-bottom: 60px;
+}
+.price__button:hover {
+    background: #00897b;
+    color: white;
+    transition: 0.3;
+    border: 2px solid #00897b;
+}
+
 
 
