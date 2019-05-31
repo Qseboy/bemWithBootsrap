@@ -293,6 +293,75 @@ div[filter]:hover .text{
 .circle-button:hover {
     background-color: #3949ab;
 }
-
-
+/*blog*/
+.blog {
+    background-color: #e4fdf9;
+    padding: 125px;
+    text-align: center;
+}
+.left > div:first-child {
+    order: 1;
+}
+.left > div:last-child {
+    order: 2;
+}
+.right > div:first-child {
+    order: 2;
+}
+.right > div:last-child {
+    order: 1;
+}
+.blog-text {
+    margin: 60px 0px 0px 20px;
+    text-align: left;
+}
+.span-blog {
+    margin: 20px 0px;
+}
+.blog-text a {
+    text-decoration: none;
+    color: #212121;
+    font-family: "Open Sans - Semibold";
+    font-size: 25px;
+    letter-spacing: 1.25px;
+}
+.blog-text a:hover {
+    color: #00897b;
+}
+.blog-text i {
+    margin-right: 15px;   
+}
+.blog-text span {
+    color: #212121;
+    font-family: "Open Sans - Semibold";
+    font-size: 17px;
+    font-weight: 550;
+    letter-spacing: 0.85px;
+}
+.blog-text span:last-child {
+    margin-left: 40px;
+}
+.blog-text p {
+    color: #212121;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+}
+.button-blog {
+    border: 2px solid black;
+    margin-top: 125px;
+    background: transparent;
+    padding: 18px 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.button-blog:hover {
+    color: white;
+    background: #00897b;
+    border: 2px solid #00897b;
+    transition: 0.3s;
+}
 
