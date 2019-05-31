@@ -261,6 +261,38 @@ div[filter]:hover .text{
     transition: 0.3;
     border: 2px solid #00897b;
 }
+/*team*/
+.team {
+    padding: 120px;
+    text-align: center;
+}
+.team img {
+    padding-bottom: 38px;
+}
+.icon-team {
+    font-size: 50px;
+}
+.icon-team i {
+    margin-right: 15px;
+}
+.icon-team a {
+    color: #00897b;
+}
+.icon-team i:hover {
+    color: #3949ab;
+}
+.circle-button {
+    background-color: #00897b;
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid #00897b;
+    margin-right: 5px;
+    margin-top: 120px;
+    cursor: pointer;
+}
+.circle-button:hover {
+    background-color: #3949ab;
+}
 
 
 
