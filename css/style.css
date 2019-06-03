@@ -364,4 +364,77 @@ div[filter]:hover .text{
     border: 2px solid #00897b;
     transition: 0.3s;
 }
-
+/*contact*/
+.contact {
+    padding: 120px;
+    color: white;
+    background-image: url(../img/footerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.contact h2 {
+    color: white;
+}
+.fa-map-marker-alt, .fa-phone , .fa-envelope {
+    font-size: 62px;
+    color: #fff;
+}
+.circle {
+    background-color: #3949ab;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.text-footer {
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.contact input, textarea {
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+.contact input:focus, textarea:focus ,button:focus {
+    outline: none;
+}
+.contact textarea {
+    margin: 30px 0;
+    resize: none;
+}
+.form {
+    margin-top: 80px;
+}
+.contact button {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 25px 75px;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+}
+.rules {
+    text-align: center;
+    padding: 22px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
